@@ -21,15 +21,16 @@ from EzilaXMusicV1.config import PROJECT_NAME
 from EzilaXMusicV1.config import SUPPORT_GROUP
 from EzilaXMusicV1.config import UPDATES_CHANNEL
 class Messages():
-      START_MSG = "**Hello 👋 [{}](tg://user?id={})!**\n\n🤖 I am an advanced bot created for playing music in the voice chats of Telegram Groups & Channels.\n\n✅ Send me /help for more info."
+      START_MSG = "**❤️ 𝙃𝙚𝙡𝙡𝙤 ❤️ 👋 [{}](tg://user?id={})!**\n\n🤖 𝓘 𝓪𝓶 𝓪𝓷 𝓪𝓭𝓿𝓪𝓷𝓬𝓮𝓭 𝓫𝓸𝓽 𝓬𝓻𝓮𝓪𝓽𝓮𝓭 𝓯𝓸𝓻 𝓹𝓵𝓪𝔂𝓲𝓷𝓰 𝓶𝓾𝓼𝓲𝓬 𝓲𝓷 𝓽𝓱𝓮 𝓿𝓸𝓲𝓬𝓮 𝓬𝓱𝓪𝓽𝓼 𝓸𝓯 𝓣𝓮𝓵𝓮𝓰𝓻𝓪𝓶 𝓖𝓻𝓸𝓾𝓹𝓼 & 𝓒𝓱𝓪𝓷𝓷𝓮𝓵𝓼❤️.\n\n✅ 𝓢𝓮𝓷𝓭 𝓶𝓮 /help 𝓯𝓸𝓻 𝓶𝓸𝓻𝓮 𝓲𝓷𝓯𝓸
+."
       HELP_MSG = [
         ".",
 f"""
-**Hey 👋 Welcome back to {PROJECT_NAME}
+**ℍ𝕖𝕪 👋 𝕎𝕖𝕝𝕔𝕠𝕞𝕖 𝕓𝕒𝕔𝕜 𝕥𝕠 {PROJECT_NAME}
 
-⚪️ {PROJECT_NAME} can play music in your group's voice chat as well as channel voice chats
+⚪️ {PROJECT_NAME} c𝕒𝕟 𝕡𝕝𝕒𝕪 𝕞𝕦𝕤𝕚𝕔 𝕚𝕟 𝕪𝕠𝕦𝕣 𝕘𝕣𝕠𝕦𝕡'𝕤 𝕧𝕠𝕚𝕔𝕖 𝕔𝕙𝕒𝕥 𝕒𝕤 𝕨𝕖𝕝𝕝 𝕒𝕤 𝕔𝕙𝕒𝕟𝕟𝕖𝕝 𝕧𝕠𝕚𝕔𝕖 𝕔𝕙𝕒𝕥𝕤
 
-⚪️ Assistant name >> @{ASSISTANT_NAME}\n\nClick next for instructions**
+⚪️ 𝔸𝕤𝕤𝕚𝕤𝕥𝕒𝕟𝕥 𝕟𝕒𝕞𝕖>> @{ASSISTANT_NAME}\n\nℂ𝕝𝕚𝕔𝕜 𝕟𝕖𝕩𝕥 𝕗𝕠𝕣 𝕚𝕟𝕤𝕥𝕣𝕦𝕔𝕥𝕚𝕠𝕟𝕤**
 """,
 
 f"""
