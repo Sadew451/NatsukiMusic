@@ -5,7 +5,7 @@
 ### 𝘼𝙫𝙖𝙞𝙡𝙖𝙗𝙡𝙚 𝙤𝙣 𝙩𝙚𝙡𝙚𝙜𝙧𝙖𝙢 𝙖𝙨[@EzilaXMBot](https://t.me/EzilaXMBot)
 
 <p align="center">
-  <img src="https://telegra.ph/file/784f868c8a645148b59f1.jpg">
+  <img src="https://telegra.ph/file/2d36b9db96709bd1dc633.png">
 </p>
 
 <h2> Features 🔥 </h2>
