@@ -1,8 +1,8 @@
-<h1 align="centre">EZILAXMUSIC V1.0 🎵</h1>
+<h1 align="centre">𝙀𝙕𝙄𝙇𝘼𝙓𝙈𝙐𝙎𝙄𝘾 𝙑1.0 🎵</h1>
 
-### A bot that can play music on Telegram Group and Channel Voice Chats
+### 𝘼 𝙗𝙤𝙩 𝙩𝙝𝙖𝙩 𝙘𝙖𝙣 𝙥𝙡𝙖𝙮 𝙢𝙪𝙨𝙞𝙘 𝙤𝙣 𝙏𝙚𝙡𝙚𝙜𝙧𝙖𝙢 𝙂𝙧𝙤𝙪𝙥 𝙖𝙣𝙙 𝘾𝙝𝙖𝙣𝙣𝙚𝙡 𝙑𝙤𝙞𝙘𝙚 𝘾𝙝𝙖𝙩𝙨
 
-### Available on telegram as [@EzilaXMBot](https://t.me/EzilaXMBot)
+### 𝘼𝙫𝙖𝙞𝙡𝙖𝙗𝙡𝙚 𝙤𝙣 𝙩𝙚𝙡𝙚𝙜𝙧𝙖𝙢 𝙖𝙨[@EzilaXMBot](https://t.me/EzilaXMBot)
 
 <p align="center">
   <img src="https://telegra.ph/file/f3f7e2c4447bf96d4ea45.jpg">
@@ -22,7 +22,7 @@
 - Channel Music Play
 - Keyboard selection support for youtube play
 
-## 🚀 Deployment
+## 🚀𝘿𝙚𝙥𝙡𝙤𝙮𝙢𝙚𝙣𝙩
 
 ### 💜 Heroku
 
@@ -112,11 +112,12 @@ Don't edit this part
 
 #### Special Credits
 - [Rojserbest](http://github.com/rojserbes): Callsmusic Developer
+- [Sadew](https://github.com/Sadew451): Dev
 
 This bot is based on the original work done by [Rojserbest](http://github.com/rojserbest). Without his hardwork EzilaXMusic won't exist. 
 EzilaXmusic is a modified version of [Callsmusic](https://github.com/callsmusic/callsmusic) for fit the needs of @EzilaXbot users
 
 #### Contribtors
-- [InukaASiTH](https://github.com/InukaAsith): Dev
-- [Rojserbest](http://github.com/rojserbes): Dev
+- [InukaASiTH](https://github.com/InukaAsith):
+- [Rojserbest](http://github.com/rojserbes): 
 - [Original Repo owners](https://github.com/CallsMusic/CallsMusic)
