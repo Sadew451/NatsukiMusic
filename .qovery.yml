@@ -1,0 +1,15 @@
+---
+application:
+  name: "groupmusicbot"
+  project: "ub"
+  organization: "QoveryCommunity"
+databases:
+- type: "MONGODB"
+  name: "ezila"
+  version: "4.4"
+routers:
+- name: "main-groupmusicbot"
+  routes:
+  - application_name: "groupmusicbot"
+    paths:
+    - "/*"
