@@ -5,7 +5,7 @@
 ### 𝘼𝙫𝙖𝙞𝙡𝙖𝙗𝙡𝙚 𝙤𝙣 𝙩𝙚𝙡𝙚𝙜𝙧𝙖𝙢 𝙖𝙨[@EzilaXMBot](https://t.me/EzilaXMBot)
 
 <p align="center">
-  <img src="https://telegra.ph/file/2d36b9db96709bd1dc633.png">
+  <img src="https://telegra.ph/file/a7ff5b58a8e99a64d14ef.jpg">
 </p>
 
 <h2> Features 🔥 </h2>
@@ -22,7 +22,12 @@
 - Channel Music Play
 - Keyboard selection support for youtube play
 
-## 🚀𝘿𝙚𝙥𝙡𝙤𝙮𝙢𝙚𝙣𝙩
+
+<p align="center">
+  <img src="https://telegra.ph/file/8d08ad053f68ce0314b32.jpg">
+</p>
+
+## 🎉 𝘿𝙚𝙥𝙡𝙤𝙮𝙢𝙚𝙣𝙩
 
 ### 💜 Heroku
 
