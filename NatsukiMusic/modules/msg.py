@@ -15,21 +15,21 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 import os
-from EzilaXMusicV1.config import SOURCE_CODE
-from EzilaXMusicV1.config import ASSISTANT_NAME
-from EzilaXMusicV1.config import PROJECT_NAME
-from EzilaXMusicV1.config import SUPPORT_GROUP
-from EzilaXMusicV1.config import UPDATES_CHANNEL
+from NatsukiMusic.config import SOURCE_CODE
+from NatsukiMusic.config import ASSISTANT_NAME
+from NatsukiMusic.config import PROJECT_NAME
+from NatsukiMusic.config import SUPPORT_GROUP
+from NatsukiMusic.config import UPDATES_CHANNEL
 class Messages():
-      START_MSG = "**Hello 👋 [{}](tg://user?id={})!**\n\n🤖 I am an advanced bot created for playing music in the voice chats of Telegram Groups & Channels.\n\n✅ Send me /help for more info."
+      START_MSG = "**Hello 👋 [{}](tg://user?id={})!**\n\n🤖 I am an advanced bot created for playing music in the voice chats of Telegram Groups & Channels.\n\n✨ Send me /help for more info."
       HELP_MSG = [
         ".",
 f"""
 **Hey 👋 Welcome back to {PROJECT_NAME}
 
-⚪️ {PROJECT_NAME} can play music in your group's voice chat as well as channel voice chats
+✨ {PROJECT_NAME} can play music in your group's voice chat as well as channel voice chats
 
-⚪️ Assistant name >> @{ASSISTANT_NAME}\n\nClick next for instructions**
+✨ Assistant name >> @{ASSISTANT_NAME}\n\nClick next for instructions**
 """,
 
 f"""
@@ -72,7 +72,7 @@ f"""
 f"""
 **=>> Channel Music Play 🛠**
 
-⚪️ For linked group admins only:
+✨ For linked group admins only:
 
 - /cplay [song name] - play song you requested
 - /cdplay [song name] - play song you requested via deezer
@@ -88,7 +88,7 @@ f"""
 
 channel is also can be used instead of c ( /cplay = /channelplay )
 
-⚪️ If you donlt like to play in linked group:
+✨ If you donlt like to play in linked group:
 
 1) Get your channel ID.
 2) Create a group with tittle: Channel Music: your_channel_id
