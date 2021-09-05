@@ -1,7 +1,7 @@
 from pyrogram import Client
 from pyrogram.types import ChatMemberUpdated
 
-from EzilaXMusicV1.function import admins
+from NatsukiMusic.function import admins
 
 
 @Client.on_chat_member_updated()
