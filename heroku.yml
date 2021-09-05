@@ -2,4 +2,4 @@ build:
   docker:
     worker: Dockerfile
 run:
-  worker: python3 -m EzilaXMusicV1
+  worker: python3 -m NatsukiMusic
