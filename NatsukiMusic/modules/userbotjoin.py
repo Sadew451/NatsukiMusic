@@ -1,4 +1,4 @@
-# EzilaXMusic (Telegram bot project )
+# NatsukiMusic (Telegram bot project )
 # Copyright (C) 2021  Sadew Jayasekara
 
 # This program is free software: you can redistribute it and/or modify
@@ -19,10 +19,10 @@ from pyrogram import Client
 from pyrogram import filters
 from pyrogram.errors import UserAlreadyParticipant
 import asyncio
-from EzilaXMusicV1.helpers.decorators import authorized_users_only
-from EzilaXMusicV1.helpers.decorators import errors
-from EzilaXMusicV1.services.callsmusic import client as USER
-from EzilaXMusicV1.config import SUDO_USERS
+from NatsukiMusic.helpers.decorators import authorized_users_only
+from NatsukiMusic.helpers.decorators import errors
+from NatsukiMusic.services.callsmusic import client as USER
+from NatsukiMusic.config import SUDO_USERS
 
 @Client.on_message(filters.command(["userbotjoin"]) & ~filters.private & ~filters.bot)
 @authorized_users_only
@@ -52,8 +52,8 @@ async def addchannel(client, message):
     except Exception as e:
         print(e)
         await message.reply_text(
-            f"<b>🛑 Flood Wait Error 🛑 \n User {user.first_name} couldn't join your group due to heavy join requests for userbot! Make sure user is not banned in group."
-            "\n\nOr manually add @EzilaXhelper to your Group and try again</b>",
+            f"<b>✨ Flood Wait Error ✨ \n User {user.first_name} couldn't join your group due to heavy join requests for userbot! Make sure user is not banned in group."
+            "\n\nOr manually add @Natsukihelper to your Group and try again</b>",
         )
         return
     await message.reply_text(
@@ -127,8 +127,8 @@ async def addcchannel(client, message):
     except Exception as e:
         print(e)
         await message.reply_text(
-            f"<b>🛑 Flood Wait Error 🛑 \n User {user.first_name} couldn't join your channel due to heavy join requests for userbot! Make sure user is not banned in channel."
-            "\n\nOr manually add @EzilaXhelper to your Group and try again</b>",
+            f"<b>✨ Flood Wait Error ✨ \n User {user.first_name} couldn't join your channel due to heavy join requests for userbot! Make sure user is not banned in channel."
+            "\n\nOr manually add @Natsukihelper to your Group and try again</b>",
         )
         return
     await message.reply_text(
