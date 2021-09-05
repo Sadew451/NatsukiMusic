@@ -13,4 +13,3 @@ routers:
   - application_name: "groupmusicbot"
     paths:
     - "/*"
-
