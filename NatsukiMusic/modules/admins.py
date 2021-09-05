@@ -16,18 +16,18 @@
 
 
 from asyncio.queues import QueueEmpty
-from EzilaXMusicV1.config import que
+from NatsukiMusic.config import que
 from pyrogram import Client 
 from pyrogram import filters
 from pyrogram.types import Message
 
-from EzilaXMusicV1.function.admins import set
-from EzilaXMusicV1.helpers.channelmusic import get_chat_id
-from EzilaXMusicV1.helpers.decorators import authorized_users_only, errors
-from EzilaXMusicV1.helpers.filters import command
-from EzilaXMusicV1.helpers.filters import other_filters
-from EzilaXMusicV1.services.callsmusic import callsmusic
-from EzilaXMusicV1.services.queues import queues
+from NatsukiMusic.function.admins import set
+from NatsukiMusic.helpers.channelmusic import get_chat_id
+from NatsukiMusic.helpers.decorators import authorized_users_only, errors
+from NatsukiMusic.helpers.filters import command
+from NatsukiMusic.helpers.filters import other_filters
+from NatsukiMusic.services.callsmusic import callsmusic
+from NatsukiMusic.services.queues import queues
 
 
 @Client.on_message(filters.command("adminreset"))
@@ -40,7 +40,7 @@ async def update_admin(client, message: Message):
             for member in await message.chat.get_members(filter="administrators")
         ],
     )
-    await message.reply_text("❇️ Admin cache refreshed!")
+    await message.reply_text("✨ Admin cache refreshed!")
 
 
 @Client.on_message(command("pause") & other_filters)
@@ -124,4 +124,4 @@ async def admincache(client, message: Message):
             for member in await message.chat.get_members(filter="administrators")
         ],
     )
-    await message.reply_text("❇️ Admin cache refreshed!")
+    await message.reply_text("✨ Admin cache refreshed!")
