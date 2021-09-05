@@ -1,12 +1,8 @@
-<h1 align="centre">𝙀𝙕𝙄𝙇𝘼𝙓𝙈𝙐𝙎𝙄𝘾 𝙑2.0 🎵</h1>
+<h1 align="centre">NATSUKI 🎵</h1>
 
 ### 𝘼 𝙗𝙤𝙩 𝙩𝙝𝙖𝙩 𝙘𝙖𝙣 𝙥𝙡𝙖𝙮 𝙢𝙪𝙨𝙞𝙘 𝙤𝙣 𝙏𝙚𝙡𝙚𝙜𝙧𝙖𝙢 𝙂𝙧𝙤𝙪𝙥 𝙖𝙣𝙙 𝘾𝙝𝙖𝙣𝙣𝙚𝙡 𝙑𝙤𝙞𝙘𝙚 𝘾𝙝𝙖𝙩𝙨
 
-### 𝘼𝙫𝙖𝙞𝙡𝙖𝙗𝙡𝙚 𝙤𝙣 𝙩𝙚𝙡𝙚𝙜𝙧𝙖𝙢 𝙖𝙨[@EzilaXMBot](https://t.me/EzilaXMBot)
-
-<p align="center">
-  <img src="https://telegra.ph/file/a7ff5b58a8e99a64d14ef.jpg">
-</p>
+### 𝘼𝙫𝙖𝙞𝙡𝙖𝙗𝙡𝙚 𝙤𝙣 𝙩𝙚𝙡𝙚𝙜𝙧𝙖𝙢 𝙖𝙨[@TheNatsukiBot](https://t.me/TheNatsukiBot)
 
 <h2> Features 🔥 </h2>
 
@@ -22,16 +18,11 @@
 - Channel Music Play
 - Keyboard selection support for youtube play
 
-
-<p align="center">
-  <img src="https://telegra.ph/file/8d08ad053f68ce0314b32.jpg">
-</p>
-
 ## 🎉 𝘿𝙚𝙥𝙡𝙤𝙮𝙢𝙚𝙣𝙩
 
 ### 💜 Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Sadew451/EzilaXMusic-v2.0)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Sadew451/Natsuki-Music)
 
 Get pyrogram (p)  `SESSION` from here:
 
@@ -40,15 +31,15 @@ Get pyrogram (p)  `SESSION` from here:
 ### ⚔ Self-hosting (For Devs) 
 ```sh
 # Install Git First (apt-instll git)
-$ git clone https://github.com/Sadew451/EzilaXmusicV1
-$ cd EzilaXMusic
+$ git clone https://github.com/Sadew451/Natsuki-Music
+$ cd Natsuki-Music
 # Upgrade sources
 # Install All Requirements 
 $ pip(3) install -r requirements.txt
 # Rename example.env to local.env and fill
 $ npm i -g npm
 # Start Bot 
-$ python(3) -m EzilaXMusicV1
+$ python(3) -m Natsuki-Music
 ```
 
 ### Commands for Group 🛠
