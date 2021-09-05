@@ -1,4 +1,4 @@
-<h1 align="centre">NATSUKI 🎵</h1>
+<h1 align="centre">NATSUKI MUSIC🎵</h1>
 
 ### 𝘼 𝙗𝙤𝙩 𝙩𝙝𝙖𝙩 𝙘𝙖𝙣 𝙥𝙡𝙖𝙮 𝙢𝙪𝙨𝙞𝙘 𝙤𝙣 𝙏𝙚𝙡𝙚𝙜𝙧𝙖𝙢 𝙂𝙧𝙤𝙪𝙥 𝙖𝙣𝙙 𝘾𝙝𝙖𝙣𝙣𝙚𝙡 𝙑𝙤𝙞𝙘𝙚 𝘾𝙝𝙖𝙩𝙨
 
@@ -22,7 +22,7 @@
 
 ### 💜 Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Sadew451/Natsuki-Music)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Sadew451/NatsukiMusic)
 
 Get pyrogram (p)  `SESSION` from here:
 
@@ -31,15 +31,15 @@ Get pyrogram (p)  `SESSION` from here:
 ### ⚔ Self-hosting (For Devs) 
 ```sh
 # Install Git First (apt-instll git)
-$ git clone https://github.com/Sadew451/Natsuki-Music
-$ cd Natsuki-Music
+$ git clone https://github.com/Sadew451/NatsukiMusic
+$ cd NatsukiMusic
 # Upgrade sources
 # Install All Requirements 
 $ pip(3) install -r requirements.txt
 # Rename example.env to local.env and fill
 $ npm i -g npm
 # Start Bot 
-$ python(3) -m Natsuki-Music
+$ python(3) -m NatsukiMusic
 ```
 
 ### Commands for Group 🛠
@@ -89,7 +89,7 @@ For linked group admins only:
 If you donlt like to play in linked channel:
  1. Get your channel ID.
  2. Rename your group to: Channel Music: your_channel_id
- 3. Add @EzilaXMBot as Channel admin with full perms
+ 3. Add @TheNatsukiBot as Channel admin with full perms
  4. add helper to channel
  5. Simply send commands in your group.
 
