@@ -16,11 +16,11 @@
 
 from pyrogram import Client
 import asyncio
-from EzilaXMusicV1.config import SUDO_USERS
-from EzilaXMusicV1.config import PMPERMIT
+from NatsukiMusic.config import SUDO_USERS
+from NatsukiMusic.config import PMPERMIT
 from pyrogram import filters
 from pyrogram.types import Message
-from EzilaXMusicV1.services.callsmusic import client as USER
+from NatsukiMusic.services.callsmusic import client as USER
 
 PMSET =True
 pchats = []
