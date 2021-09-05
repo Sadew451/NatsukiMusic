@@ -18,8 +18,8 @@ from typing import Dict
 
 from pytgcalls import GroupCall
 
-from EzilaXMusicV1.services.callsmusic import client
-from EzilaXMusicV1.services.queues import queues
+from NatsukiMusic.services.callsmusic import client
+from NatsukiMusic.services.queues import queues
 
 
 instances: Dict[int, GroupCall] = {}
