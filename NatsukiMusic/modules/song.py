@@ -1,4 +1,4 @@
-# EzilaXMusic (Telegram bot project )
+# NatsukiMusic (Telegram bot project )
 # Copyright (C) 2021  Sadew Jayasekara
 
 # This program is free software: you can redistribute it and/or modify
@@ -35,8 +35,8 @@ from pyrogram.types import Message
 from youtube_search import YoutubeSearch
 from youtubesearchpython import SearchVideos
 
-from EzilaXMusicV1.config import DURATION_LIMIT
-from EzilaXMusicV1.modules.play import arq
+from NatsukiMusic.config import DURATION_LIMIT
+from NatsukiMusic.modules.play import arq
 
 
 @Client.on_message(filters.command("song") & ~filters.channel)
@@ -76,7 +76,7 @@ def song(client, message):
             info_dict = ydl.extract_info(link, download=False)
             audio_file = ydl.prepare_filename(info_dict)
             ydl.process_info(info_dict)
-        rep = "**🎵 𝕌𝕡𝕝𝕠𝕒𝕕𝕖𝕕 𝕓𝕪 @EzilaXBot**"
+        rep = "**🎵 𝕌𝕡𝕝𝕠𝕒𝕕𝕖𝕕 𝕓𝕪 @TheNatsukiBot**"
         secmul, dur, dur_arr = 1, 0, duration.split(":")
         for i in range(len(dur_arr) - 1, -1, -1):
             dur += int(dur_arr[i]) * secmul
