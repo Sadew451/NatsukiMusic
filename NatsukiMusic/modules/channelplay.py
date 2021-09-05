@@ -35,31 +35,31 @@ from pyrogram.types import Voice
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from Python_ARQ import ARQ
 from youtube_search import YoutubeSearch
-from EzilaXMusicV1.modules.play import generate_cover
-from EzilaXMusicV1.modules.play import arq
-from EzilaXMusicV1.modules.play import cb_admin_check
-from EzilaXMusicV1.modules.play import transcode
-from EzilaXMusicV1.modules.play import convert_seconds
-from EzilaXMusicV1.modules.play import time_to_seconds
-from EzilaXMusicV1.modules.play import changeImageSize
-from EzilaXMusicV1.config import BOT_NAME as bn
-from EzilaXMusicV1.config import DURATION_LIMIT
-from EzilaXMusicV1.config import UPDATES_CHANNEL as updateschannel
-from EzilaXMusicV1.config import que
-from EzilaXMusicV1.function.admins import admins as a
-from EzilaXMusicV1.helpers.errors import DurationLimitError
-from EzilaXMusicV1.helpers.decorators import errors
-from EzilaXMusicV1.helpers.admins import get_administrators
-from EzilaXMusicV1.helpers.channelmusic import get_chat_id
-from EzilaXMusicV1.helpers.decorators import authorized_users_only
-from EzilaXMusicV1.helpers.filters import command
-from EzilaXMusicV1.helpers.filters import other_filters
-from EzilaXMusicV1.helpers.gets import get_file_name
-from EzilaXMusicV1.services.callsmusic import callsmusic
-from EzilaXMusicV1.services.callsmusic import client as USER
-from EzilaXMusicV1.services.converter.converter import convert
-from EzilaXMusicV1.services.downloaders import youtube
-from EzilaXMusicV1.services.queues import queues
+from NatsukiMusic.modules.play import generate_cover
+from NatsukiMusic.modules.play import arq
+from NatsukiMusic.modules.play import cb_admin_check
+from NatsukiMusic.modules.play import transcode
+from NatsukiMusic.modules.play import convert_seconds
+from NatsukiMusic.modules.play import time_to_seconds
+from NatsukiMusic.modules.play import changeImageSize
+from NatsukiMusic.config import BOT_NAME as bn
+from NatsukiMusic.config import DURATION_LIMIT
+from NatsukiMusic.config import UPDATES_CHANNEL as updateschannel
+from NatsukiMusic.config import que
+from NatsukiMusic.function.admins import admins as a
+from NatsukiMusic.helpers.errors import DurationLimitError
+from NatsukiMusic.helpers.decorators import errors
+from NatsukiMusic.helpers.admins import get_administrators
+from NatsukiMusic.helpers.channelmusic import get_chat_id
+from NatsukiMusic.helpers.decorators import authorized_users_only
+from NatsukiMusic.helpers.filters import command
+from NatsukiMusic.helpers.filters import other_filters
+from NatsukiMusic.helpers.gets import get_file_name
+from NatsukiMusic.services.callsmusic import callsmusic
+from NatsukiMusic.services.callsmusic import client as USER
+from NatsukiMusic.services.converter.converter import convert
+from NatsukiMusic.services.downloaders import youtube
+from NatsukiMusic.services.queues import queues
 
 chat_id = None
 
@@ -415,7 +415,7 @@ async def play(_, message: Message):
                 except Exception:
                     # print(e)
                     await lel.edit(
-                        f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} couldn't join your channel due to heavy requests for userbot! Make sure user is not banned in group."
+                        f"<b>✨ Flood Wait Error ✨ \nUser {user.first_name} couldn't join your channel due to heavy requests for userbot! Make sure user is not banned in group."
                         "\n\nOr manually add assistant to your Group and try again</b>",
                     )
     try:
@@ -659,7 +659,7 @@ async def deezer(client: Client, message_: Message):
                 except Exception:
                     # print(e)
                     await lel.edit(
-                        f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} couldn't join your channel due to heavy requests for userbot! Make sure user is not banned in channel."
+                        f"<b>✨ Flood Wait Error ✨ \nUser {user.first_name} couldn't join your channel due to heavy requests for userbot! Make sure user is not banned in channel."
                         "\n\nOr manually add assistant to your Group and try again</b>",
                     )
     try:
@@ -790,8 +790,8 @@ async def jiosaavn(client: Client, message_: Message):
                 except Exception:
                     # print(e)
                     await lel.edit(
-                        f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} couldn't join your channel due to heavy requests for userbot! Make sure user is not banned in group."
-                        "\n\nOr manually add @EzilaXHelper to your Group and try again</b>",
+                        f"<b>✨ Flood Wait Error ✨ \nUser {user.first_name} couldn't join your channel due to heavy requests for userbot! Make sure user is not banned in group."
+                        "\n\nOr manually add @NatsukiHelper to your Group and try again</b>",
                     )
     try:
         await USER.get_chat(chid)
@@ -815,7 +815,7 @@ async def jiosaavn(client: Client, message_: Message):
         sname = songs.result[0].song
         slink = songs.result[0].media_url
         ssingers = songs.result[0].singers
-        sthumb = "https://telegra.ph/file/f3f7e2c4447bf96d4ea45.jpg"
+        sthumb = "https://telegra.ph/file/83af4130336e7d5747930.jpg"
         sduration = int(songs.result[0].duration)
     except Exception as e:
         await res.edit("Found Literally Nothing!, You Should Work On Your English.")
