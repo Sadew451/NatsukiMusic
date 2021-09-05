@@ -18,7 +18,7 @@
 import asyncio
 from os import path
 
-from EzilaXMusicV1.helpers.errors import FFmpegReturnCodeError
+from NatsukiMusic.helpers.errors import FFmpegReturnCodeError
 
 
 async def convert(file_path: str) -> str:
