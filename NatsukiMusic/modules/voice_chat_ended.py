@@ -2,8 +2,8 @@ from pyrogram import Client
 from pyrogram import filters
 from pyrogram.types import Message
 
-from EzilaXMusicV1.services.callsmusic.callsmusic import remove
-from EzilaXMusicV1.helpers.channelmusic import get_chat_id
+from NatsukiMusic.services.callsmusic.callsmusic import remove
+from NatsukiMusic.helpers.channelmusic import get_chat_id
 
 
 @Client.on_message(filters.voice_chat_ended)
