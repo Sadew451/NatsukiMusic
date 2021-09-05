@@ -1,4 +1,4 @@
-# EzilaXMusic (Telegram bot project )
+# NatsukiMusic (Telegram bot project )
 # Copyright (C) 2021  Sadew Jayasekara
 
 # This program is free software: you can redistribute it and/or modify
