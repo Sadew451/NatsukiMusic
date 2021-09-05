@@ -1,9 +1,9 @@
 {
-  "name": "EzilaXMusic",
-  "logo": "https://telegra.ph/file/f3f7e2c4447bf96d4ea45.jpg",
+  "name": "NatsukiMusic",
+  "logo": "https://telegra.ph/file/1fa0f2cb48b11523b7bf4.jpg",
   "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
   "keywords": ["music", "voicechat", "telegram"],
-  "repository": "https://github.com/Sadew451/EzilaXMusic-v2",
+  "repository": "https://github.com/Sadew451/NatsukiMusic",
   "buildpacks": [
    {
      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
@@ -33,12 +33,12 @@
     "SUPPORT_GROUP": {
       "description": "Your MusicPlayer support group without @ [Leave this if you don't have one]",
       "required": false,
-      "value": "Ezila_Support"
+      "value": "NatsukiSupport_Official"
     },
     "PROJECT_NAME": {
       "description": "Your MusicPlayer project Name.",
       "required": false,
-      "value": "EzilaXMusic V1"
+      "value": "NatsukiMusic"
     },
     "ASSISTANT_NAME": {
       "description": "Your MusicPlayer's assistant Username without @.",
@@ -52,15 +52,15 @@
     "BG_IMAGE": {
       "description": "BG image of bot (Use transparent one) [IGNORE].",
       "required": false,
-      "value": " https://telegra.ph/file/4da9e9410304195dd8435.png"
+      "value": " https://telegra.ph/file/1fa0f2cb48b11523b7bf4.jpg"
     },     
     "UPDATES_CHANNEL": {
       "description": "Updates Channel without @ [Leave this if you don't have one].",
       "required": false,
-      "value": "Ezila_updates"
+      "value": "Natsuki_updates"
     },    
     "API_ID": {
-      "description": "App ID from my.telegram.org/apps",
+      "description": "App ID from @SDMyTgOrgBot",
       "required": true
     },
     "PMPERMIT": {
@@ -69,7 +69,7 @@
       "value": "ENABLE"
     },    
     "API_HASH": {
-      "description": "App hash from my.telegram.org/apps",
+      "description": "App hash from @SDMyTgOrgBot",
       "required": true
     },
     "SUDO_USERS": {
@@ -79,7 +79,7 @@
     "DURATION_LIMIT": {
       "description": "Max audio duration limit for downloads (minutes).",
       "required": true,
-      "value": "10"
+      "value": "60"
     }
   }
 }
