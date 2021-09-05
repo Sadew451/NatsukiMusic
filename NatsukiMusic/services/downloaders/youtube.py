@@ -20,8 +20,8 @@ from os import path
 
 from youtube_dl import YoutubeDL
 
-from EzilaXMusicV1.config import DURATION_LIMIT
-from EzilaXMusicV1.helpers.errors import DurationLimitError
+from NatsukiMusic.config import DURATION_LIMIT
+from NatsukiMusic.helpers.errors import DurationLimitError
 
 ydl_opts = {
     "format": "bestaudio[ext=m4a]",
