@@ -104,7 +104,7 @@ For linked group admins only:
 If you donlt like to play in linked channel:
  1. Get your channel ID.
  2. Rename your group to: Channel Music: your_channel_id
- 3. Add @TheNatsukiBot as Channel admin with full perms
+ 3. Add [Natsuki](https://t.me/TheNatsukiBot) as Channel admin with full perms
  4. add helper to channel
  5. Simply send commands in your group.
 
@@ -125,8 +125,8 @@ Don't edit this part
 - [Rojserbest](http://github.com/rojserbes): Callsmusic Developer
 - [Sadew](https://github.com/Sadew451): Dev
 
-This bot is based on the original work done by [Rojserbest](http://github.com/rojserbest). Without his hardwork EzilaXMusic won't exist. 
-EzilaXmusic is a modified version of [Callsmusic](https://github.com/callsmusic/callsmusic) for fit the needs of @EzilaXbot users
+This bot is based on the original work done by [Rojserbest](http://github.com/rojserbest). Without his hardwork NatsukiMusic won't exist. 
+EzilaXmusic is a modified version of [Callsmusic](https://github.com/callsmusic/callsmusic) for fit the needs of [Natsuki](https://t.me/TheNatsukiBot) users
 
 #### Contribtors
 - [InukaASiTH](https://github.com/InukaAsith):
